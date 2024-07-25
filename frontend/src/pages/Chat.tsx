@@ -56,6 +56,7 @@ const Chat = () => {
         });
     }
   }, [auth]);
+  
   useEffect(() => {
     if (!auth?.user) {
       return navigate("/login");
